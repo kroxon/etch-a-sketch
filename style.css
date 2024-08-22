@@ -1,0 +1,31 @@
+html {
+    /* background-color: rgb(233, 155, 187); */
+}
+
+body {
+    display: flex;
+    flex-grow: 1;
+    background-color: aqua;
+}
+
+.square {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    border:0.5px solid #cfcbcb60;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    width: min(90vw, 80vh);
+    height: min(90vw, 80vh);
+    background-color: beige;
+}
