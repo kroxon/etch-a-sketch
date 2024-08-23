@@ -5,7 +5,10 @@ html {
 body {
     display: flex;
     flex-grow: 1;
-    background-color: aqua;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: #D9AF8B;
 }
 
 .square {
@@ -22,10 +25,36 @@ body {
 }
 
 .container {
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
     flex-flow: column nowrap;
     width: min(90vw, 80vh);
     height: min(90vw, 80vh);
     background-color: beige;
+}
+
+button {
+    border: none;
+    background-color: #D98555;
+    color: #ffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px auto 20px auto;
+    position: relative;
+    box-shadow: 5px 5px 5px #BF463B;
+    transition: all 0.3s ease;
+}
+
+
+button:hover {
+    box-shadow: 0px 2px 20px #BF463B;
+    top: 3px;
+}
+
+button:active {
+    box-shadow: none;
+    top: 5px;
 }
